@@ -6,40 +6,42 @@
     <title>HealthTrack - Register</title>
 
     <link href="source/css/bootstrap.min.css" rel="stylesheet">
+    <link href="source/style/styles.css" rel="stylesheet">
+
     <script src="source/js/bootstrap.bundle.min.js"></script>
 
 </head>
-<body style="background-color: black;">
-    <section style="background-image: url(images/fight.jpg); background-repeat: no-repeat; background-size: cover;">
+<body id="bg_black">
+    <section id="bg_image_fight">
         <div class="container py-5 h-100">
           <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-              <div class="card bg-dark text-white" style="border-radius: 1rem;">
+              <div class="card bg-dark text-white" id="border_radius">
                 <div class="card-body p-5 text-center">
       
                   <div class="mb-md-5 mt-md-4 pb-5">
-                    <form action="homepage.html">
+                    <form action="login.html">
       
                         <h2 class="fw-bold mb-2 text-uppercase">Cadastrar</h2>
                         <p class="text-white-50 mb-5">Por favor Preencha os campos</p>
 
                         <div class="form-outline form-white mb-4">
-                            <input type="text" class="form-control form-control-lg"/>
+                            <input type="text" class="form-control form-control-lg" required />
                             <label class="form-label">Nome Completo</label>
                         </div>
         
                         <div class="form-outline form-white mb-4">
-                        <input type="email" id="typeEmailX" class="form-control form-control-lg" />
-                        <label class="form-label" for="typeEmailX">Email</label>
+                        <input type="email" class="form-control form-control-lg" required />
+                        <label class="form-label">Email</label>
                         </div>
         
                         <div class="form-outline form-white mb-4">
-                        <input type="password" id="typePasswordX" class="form-control form-control-lg" />
-                        <label class="form-label" for="typePasswordX">Senha</label>
+                        <input type="password" class="form-control form-control-lg" required />
+                        <label class="form-label">Senha</label>
                         </div>
 
                         <div class="form-outline form-white mb-4">
-                            <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                            <input type="password" class="form-control form-control-lg" required />
                             <label class="form-label">Senha</label>
                         </div>
                 

@@ -1,0 +1,83 @@
+#bg_landing {
+
+    background-image: url("../images/index.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+
+  }
+
+html{
+  height:100%
+}
+body{
+  height:100%;
+}
+
+a {
+  text-decoration: none;
+  }
+
+#opacity{
+  opacity: 0.75;
+}
+
+.about{
+  display : flex;
+  justify-content : center;
+  align-items : center;
+  color: white;
+  height:33.33%;
+}
+
+.special_title {
+
+  font-size:10vw;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#bg_black{
+  background-color: black;
+}
+
+#bg_image_workout{
+  background-image: url("../images/workout.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#bg_image_vegetables{
+  background-image: url("../images/vegetables.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+#bg_image_settings{
+  background-image: url("../images/settings.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+#bg_image_fight{
+  background-image: url("../images/fight.jpg"); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-position: center;
+
+}
+
+#index_describe{
+  margin-top: 300px;
+  margin-bottom: 50px; 
+  background-color: white; 
+  opacity: .75;
+}
+
+#border_radius{
+  border-radius: 1rem;
+}
+
